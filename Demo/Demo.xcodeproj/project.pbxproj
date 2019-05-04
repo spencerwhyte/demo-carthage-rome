@@ -7,18 +7,39 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		327D4CCFB69E72BF328CB360 /* Pods_Demo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF626DC3C5AE9D8ED9E78683 /* Pods_Demo.framework */; };
 		F3A22CCA227E21FD0024CD47 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3A22CC9227E21FD0024CD47 /* AppDelegate.swift */; };
 		F3A22CCC227E21FD0024CD47 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3A22CCB227E21FD0024CD47 /* ViewController.swift */; };
 		F3A22CCF227E21FD0024CD47 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F3A22CCD227E21FD0024CD47 /* Main.storyboard */; };
 		F3A22CD1227E21FE0024CD47 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F3A22CD0227E21FE0024CD47 /* Assets.xcassets */; };
 		F3A22CD4227E21FE0024CD47 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F3A22CD2227E21FE0024CD47 /* LaunchScreen.storyboard */; };
+		F3A22D28227E4C610024CD47 /* MBProgressHUD.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F3A22D0F227E4C600024CD47 /* MBProgressHUD.framework */; };
+		F3A22D29227E4C610024CD47 /* RxCocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F3A22D10227E4C600024CD47 /* RxCocoa.framework */; };
+		F3A22D2A227E4C610024CD47 /* BoltsSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F3A22D11227E4C600024CD47 /* BoltsSwift.framework */; };
+		F3A22D2B227E4C610024CD47 /* SDWebImageMapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F3A22D12227E4C600024CD47 /* SDWebImageMapKit.framework */; };
+		F3A22D2C227E4C610024CD47 /* SkeletonView.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F3A22D13227E4C600024CD47 /* SkeletonView.framework */; };
+		F3A22D2D227E4C610024CD47 /* WatchdogInspector.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F3A22D14227E4C600024CD47 /* WatchdogInspector.framework */; };
+		F3A22D2E227E4C610024CD47 /* RxSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F3A22D15227E4C600024CD47 /* RxSwift.framework */; };
+		F3A22D2F227E4C610024CD47 /* InstructionsAppExtensions.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F3A22D16227E4C600024CD47 /* InstructionsAppExtensions.framework */; };
+		F3A22D30227E4C610024CD47 /* SDWebImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F3A22D17227E4C600024CD47 /* SDWebImage.framework */; };
+		F3A22D31227E4C610024CD47 /* CocoaLumberjack.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F3A22D18227E4C600024CD47 /* CocoaLumberjack.framework */; };
+		F3A22D32227E4C610024CD47 /* IQKeyboardManager.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F3A22D19227E4C600024CD47 /* IQKeyboardManager.framework */; };
+		F3A22D33227E4C610024CD47 /* RxBlocking.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F3A22D1A227E4C600024CD47 /* RxBlocking.framework */; };
+		F3A22D34227E4C610024CD47 /* SnapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F3A22D1B227E4C600024CD47 /* SnapKit.framework */; };
+		F3A22D35227E4C610024CD47 /* RxTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F3A22D1C227E4C600024CD47 /* RxTest.framework */; };
+		F3A22D36227E4C610024CD47 /* SwiftyJSON.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F3A22D1D227E4C610024CD47 /* SwiftyJSON.framework */; };
+		F3A22D37227E4C610024CD47 /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F3A22D1E227E4C610024CD47 /* Alamofire.framework */; };
+		F3A22D38227E4C610024CD47 /* RxRelay.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F3A22D1F227E4C610024CD47 /* RxRelay.framework */; };
+		F3A22D39227E4C610024CD47 /* IQKeyboardManagerSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F3A22D20227E4C610024CD47 /* IQKeyboardManagerSwift.framework */; };
+		F3A22D3A227E4C610024CD47 /* CocoaLumberjackSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F3A22D21227E4C610024CD47 /* CocoaLumberjackSwift.framework */; };
+		F3A22D3B227E4C610024CD47 /* Instructions.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F3A22D22227E4C610024CD47 /* Instructions.framework */; };
+		F3A22D3C227E4C610024CD47 /* MGSwipeTableCell.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F3A22D23227E4C610024CD47 /* MGSwipeTableCell.framework */; };
+		F3A22D3D227E4C610024CD47 /* SideMenu.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F3A22D24227E4C610024CD47 /* SideMenu.framework */; };
+		F3A22D3E227E4C610024CD47 /* JWTDecode.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F3A22D25227E4C610024CD47 /* JWTDecode.framework */; };
+		F3A22D3F227E4C610024CD47 /* SwiftMessages.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F3A22D26227E4C610024CD47 /* SwiftMessages.framework */; };
+		F3A22D40227E4C610024CD47 /* Hero.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F3A22D27227E4C610024CD47 /* Hero.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		6BB78ECF90B9C1137B243052 /* Pods-Demo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Demo.release.xcconfig"; path = "Target Support Files/Pods-Demo/Pods-Demo.release.xcconfig"; sourceTree = "<group>"; };
-		A0621B4D1524DDAE6E310691 /* Pods-Demo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Demo.debug.xcconfig"; path = "Target Support Files/Pods-Demo/Pods-Demo.debug.xcconfig"; sourceTree = "<group>"; };
-		BF626DC3C5AE9D8ED9E78683 /* Pods_Demo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Demo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F3A22CC6227E21FD0024CD47 /* Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Demo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F3A22CC9227E21FD0024CD47 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F3A22CCB227E21FD0024CD47 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -26,6 +47,31 @@
 		F3A22CD0227E21FE0024CD47 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F3A22CD3227E21FE0024CD47 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F3A22CD5227E21FE0024CD47 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F3A22D0F227E4C600024CD47 /* MBProgressHUD.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MBProgressHUD.framework; path = Carthage/Build/iOS/MBProgressHUD.framework; sourceTree = "<group>"; };
+		F3A22D10227E4C600024CD47 /* RxCocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxCocoa.framework; path = Carthage/Build/iOS/RxCocoa.framework; sourceTree = "<group>"; };
+		F3A22D11227E4C600024CD47 /* BoltsSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = BoltsSwift.framework; path = Carthage/Build/iOS/BoltsSwift.framework; sourceTree = "<group>"; };
+		F3A22D12227E4C600024CD47 /* SDWebImageMapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SDWebImageMapKit.framework; path = Carthage/Build/iOS/SDWebImageMapKit.framework; sourceTree = "<group>"; };
+		F3A22D13227E4C600024CD47 /* SkeletonView.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SkeletonView.framework; path = Carthage/Build/iOS/SkeletonView.framework; sourceTree = "<group>"; };
+		F3A22D14227E4C600024CD47 /* WatchdogInspector.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WatchdogInspector.framework; path = Carthage/Build/iOS/WatchdogInspector.framework; sourceTree = "<group>"; };
+		F3A22D15227E4C600024CD47 /* RxSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxSwift.framework; path = Carthage/Build/iOS/RxSwift.framework; sourceTree = "<group>"; };
+		F3A22D16227E4C600024CD47 /* InstructionsAppExtensions.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = InstructionsAppExtensions.framework; path = Carthage/Build/iOS/InstructionsAppExtensions.framework; sourceTree = "<group>"; };
+		F3A22D17227E4C600024CD47 /* SDWebImage.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SDWebImage.framework; path = Carthage/Build/iOS/SDWebImage.framework; sourceTree = "<group>"; };
+		F3A22D18227E4C600024CD47 /* CocoaLumberjack.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CocoaLumberjack.framework; path = Carthage/Build/iOS/CocoaLumberjack.framework; sourceTree = "<group>"; };
+		F3A22D19227E4C600024CD47 /* IQKeyboardManager.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IQKeyboardManager.framework; path = Carthage/Build/iOS/IQKeyboardManager.framework; sourceTree = "<group>"; };
+		F3A22D1A227E4C600024CD47 /* RxBlocking.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxBlocking.framework; path = Carthage/Build/iOS/RxBlocking.framework; sourceTree = "<group>"; };
+		F3A22D1B227E4C600024CD47 /* SnapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SnapKit.framework; path = Carthage/Build/iOS/SnapKit.framework; sourceTree = "<group>"; };
+		F3A22D1C227E4C600024CD47 /* RxTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxTest.framework; path = Carthage/Build/iOS/RxTest.framework; sourceTree = "<group>"; };
+		F3A22D1D227E4C610024CD47 /* SwiftyJSON.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftyJSON.framework; path = Carthage/Build/iOS/SwiftyJSON.framework; sourceTree = "<group>"; };
+		F3A22D1E227E4C610024CD47 /* Alamofire.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Alamofire.framework; path = Carthage/Build/iOS/Alamofire.framework; sourceTree = "<group>"; };
+		F3A22D1F227E4C610024CD47 /* RxRelay.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxRelay.framework; path = Carthage/Build/iOS/RxRelay.framework; sourceTree = "<group>"; };
+		F3A22D20227E4C610024CD47 /* IQKeyboardManagerSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IQKeyboardManagerSwift.framework; path = Carthage/Build/iOS/IQKeyboardManagerSwift.framework; sourceTree = "<group>"; };
+		F3A22D21227E4C610024CD47 /* CocoaLumberjackSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CocoaLumberjackSwift.framework; path = Carthage/Build/iOS/CocoaLumberjackSwift.framework; sourceTree = "<group>"; };
+		F3A22D22227E4C610024CD47 /* Instructions.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Instructions.framework; path = Carthage/Build/iOS/Instructions.framework; sourceTree = "<group>"; };
+		F3A22D23227E4C610024CD47 /* MGSwipeTableCell.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MGSwipeTableCell.framework; path = Carthage/Build/iOS/MGSwipeTableCell.framework; sourceTree = "<group>"; };
+		F3A22D24227E4C610024CD47 /* SideMenu.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SideMenu.framework; path = Carthage/Build/iOS/SideMenu.framework; sourceTree = "<group>"; };
+		F3A22D25227E4C610024CD47 /* JWTDecode.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JWTDecode.framework; path = Carthage/Build/iOS/JWTDecode.framework; sourceTree = "<group>"; };
+		F3A22D26227E4C610024CD47 /* SwiftMessages.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftMessages.framework; path = Carthage/Build/iOS/SwiftMessages.framework; sourceTree = "<group>"; };
+		F3A22D27227E4C610024CD47 /* Hero.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Hero.framework; path = Carthage/Build/iOS/Hero.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,30 +79,43 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				327D4CCFB69E72BF328CB360 /* Pods_Demo.framework in Frameworks */,
+				F3A22D28227E4C610024CD47 /* MBProgressHUD.framework in Frameworks */,
+				F3A22D29227E4C610024CD47 /* RxCocoa.framework in Frameworks */,
+				F3A22D2A227E4C610024CD47 /* BoltsSwift.framework in Frameworks */,
+				F3A22D2B227E4C610024CD47 /* SDWebImageMapKit.framework in Frameworks */,
+				F3A22D2C227E4C610024CD47 /* SkeletonView.framework in Frameworks */,
+				F3A22D2D227E4C610024CD47 /* WatchdogInspector.framework in Frameworks */,
+				F3A22D2E227E4C610024CD47 /* RxSwift.framework in Frameworks */,
+				F3A22D2F227E4C610024CD47 /* InstructionsAppExtensions.framework in Frameworks */,
+				F3A22D30227E4C610024CD47 /* SDWebImage.framework in Frameworks */,
+				F3A22D31227E4C610024CD47 /* CocoaLumberjack.framework in Frameworks */,
+				F3A22D32227E4C610024CD47 /* IQKeyboardManager.framework in Frameworks */,
+				F3A22D33227E4C610024CD47 /* RxBlocking.framework in Frameworks */,
+				F3A22D34227E4C610024CD47 /* SnapKit.framework in Frameworks */,
+				F3A22D35227E4C610024CD47 /* RxTest.framework in Frameworks */,
+				F3A22D36227E4C610024CD47 /* SwiftyJSON.framework in Frameworks */,
+				F3A22D37227E4C610024CD47 /* Alamofire.framework in Frameworks */,
+				F3A22D38227E4C610024CD47 /* RxRelay.framework in Frameworks */,
+				F3A22D39227E4C610024CD47 /* IQKeyboardManagerSwift.framework in Frameworks */,
+				F3A22D3A227E4C610024CD47 /* CocoaLumberjackSwift.framework in Frameworks */,
+				F3A22D3B227E4C610024CD47 /* Instructions.framework in Frameworks */,
+				F3A22D3C227E4C610024CD47 /* MGSwipeTableCell.framework in Frameworks */,
+				F3A22D3D227E4C610024CD47 /* SideMenu.framework in Frameworks */,
+				F3A22D3E227E4C610024CD47 /* JWTDecode.framework in Frameworks */,
+				F3A22D3F227E4C610024CD47 /* SwiftMessages.framework in Frameworks */,
+				F3A22D40227E4C610024CD47 /* Hero.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		B8E5EC454C190541487F9CE3 /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				A0621B4D1524DDAE6E310691 /* Pods-Demo.debug.xcconfig */,
-				6BB78ECF90B9C1137B243052 /* Pods-Demo.release.xcconfig */,
-			);
-			name = Pods;
-			path = ../Pods;
-			sourceTree = "<group>";
-		};
 		F3A22CBD227E21FD0024CD47 = {
 			isa = PBXGroup;
 			children = (
 				F3A22CC8227E21FD0024CD47 /* Demo */,
 				F3A22CC7227E21FD0024CD47 /* Products */,
-				B8E5EC454C190541487F9CE3 /* Pods */,
-				F845466241C032275E87DE93 /* Frameworks */,
+				F3A22CDC227E45D70024CD47 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -81,10 +140,34 @@
 			path = Demo;
 			sourceTree = "<group>";
 		};
-		F845466241C032275E87DE93 /* Frameworks */ = {
+		F3A22CDC227E45D70024CD47 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				BF626DC3C5AE9D8ED9E78683 /* Pods_Demo.framework */,
+				F3A22D1E227E4C610024CD47 /* Alamofire.framework */,
+				F3A22D11227E4C600024CD47 /* BoltsSwift.framework */,
+				F3A22D18227E4C600024CD47 /* CocoaLumberjack.framework */,
+				F3A22D21227E4C610024CD47 /* CocoaLumberjackSwift.framework */,
+				F3A22D27227E4C610024CD47 /* Hero.framework */,
+				F3A22D22227E4C610024CD47 /* Instructions.framework */,
+				F3A22D16227E4C600024CD47 /* InstructionsAppExtensions.framework */,
+				F3A22D19227E4C600024CD47 /* IQKeyboardManager.framework */,
+				F3A22D20227E4C610024CD47 /* IQKeyboardManagerSwift.framework */,
+				F3A22D25227E4C610024CD47 /* JWTDecode.framework */,
+				F3A22D0F227E4C600024CD47 /* MBProgressHUD.framework */,
+				F3A22D23227E4C610024CD47 /* MGSwipeTableCell.framework */,
+				F3A22D1A227E4C600024CD47 /* RxBlocking.framework */,
+				F3A22D10227E4C600024CD47 /* RxCocoa.framework */,
+				F3A22D1F227E4C610024CD47 /* RxRelay.framework */,
+				F3A22D15227E4C600024CD47 /* RxSwift.framework */,
+				F3A22D1C227E4C600024CD47 /* RxTest.framework */,
+				F3A22D17227E4C600024CD47 /* SDWebImage.framework */,
+				F3A22D12227E4C600024CD47 /* SDWebImageMapKit.framework */,
+				F3A22D24227E4C610024CD47 /* SideMenu.framework */,
+				F3A22D13227E4C600024CD47 /* SkeletonView.framework */,
+				F3A22D1B227E4C600024CD47 /* SnapKit.framework */,
+				F3A22D26227E4C610024CD47 /* SwiftMessages.framework */,
+				F3A22D1D227E4C610024CD47 /* SwiftyJSON.framework */,
+				F3A22D14227E4C600024CD47 /* WatchdogInspector.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -96,12 +179,10 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F3A22CD8227E21FE0024CD47 /* Build configuration list for PBXNativeTarget "Demo" */;
 			buildPhases = (
-				BC2AFFA8E7B6A6BFF3FE9B96 /* [CP] Check Pods Manifest.lock */,
 				F3A22CC2227E21FD0024CD47 /* Sources */,
 				F3A22CC3227E21FD0024CD47 /* Frameworks */,
 				F3A22CC4227E21FD0024CD47 /* Resources */,
-				2CF5FFBC1CCAC51F2E082E8D /* [CP] Embed Pods Frameworks */,
-				8D993F05C3503894AB0D77D8 /* [CP] Copy Pods Resources */,
+				F3A22CDB227E3E380024CD47 /* Carthage */,
 			);
 			buildRules = (
 			);
@@ -159,7 +240,7 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		2CF5FFBC1CCAC51F2E082E8D /* [CP] Embed Pods Frameworks */ = {
+		F3A22CDB227E3E380024CD47 /* Carthage */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -167,115 +248,63 @@
 			inputFileListPaths = (
 			);
 			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-Demo/Pods-Demo-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/ALLoadingView/ALLoadingView.framework",
-				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
-				"${BUILT_PRODUCTS_DIR}/Bolts/Bolts.framework",
-				"${BUILT_PRODUCTS_DIR}/CWStatusBarNotification/CWStatusBarNotification.framework",
-				"${BUILT_PRODUCTS_DIR}/CocoaLumberjack/CocoaLumberjack.framework",
-				"${BUILT_PRODUCTS_DIR}/FBSDKCoreKit/FBSDKCoreKit.framework",
-				"${BUILT_PRODUCTS_DIR}/FBSDKLoginKit/FBSDKLoginKit.framework",
-				"${BUILT_PRODUCTS_DIR}/FBSDKShareKit/FBSDKShareKit.framework",
-				"${BUILT_PRODUCTS_DIR}/GoogleUtilities/GoogleUtilities.framework",
-				"${BUILT_PRODUCTS_DIR}/Hero/Hero.framework",
-				"${BUILT_PRODUCTS_DIR}/IQKeyboardManagerSwift/IQKeyboardManagerSwift.framework",
-				"${BUILT_PRODUCTS_DIR}/Instructions/Instructions.framework",
-				"${BUILT_PRODUCTS_DIR}/JWTDecode/JWTDecode.framework",
-				"${BUILT_PRODUCTS_DIR}/MBProgressHUD/MBProgressHUD.framework",
-				"${BUILT_PRODUCTS_DIR}/MGSwipeTableCell/MGSwipeTableCell.framework",
-				"${BUILT_PRODUCTS_DIR}/Protobuf/Protobuf.framework",
-				"${BUILT_PRODUCTS_DIR}/RxAtomic/RxAtomic.framework",
-				"${BUILT_PRODUCTS_DIR}/RxSwift/RxSwift.framework",
-				"${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework",
-				"${BUILT_PRODUCTS_DIR}/SideMenu/SideMenu.framework",
-				"${BUILT_PRODUCTS_DIR}/SkeletonView/SkeletonView.framework",
-				"${BUILT_PRODUCTS_DIR}/SnapKit/SnapKit.framework",
-				"${BUILT_PRODUCTS_DIR}/SwiftMessages/SwiftMessages.framework",
-				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
-				"${BUILT_PRODUCTS_DIR}/WatchdogInspector/WatchdogInspector.framework",
-				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/Alamofire.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/CocoaLumberjack.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/CocoaLumberjackSwift.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/Hero.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/IQKeyboardManager.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/IQKeyboardManagerSwift.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/Instructions.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/InstructionsAppExtensions.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/JWTDecode.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/MBProgressHUD.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/MGSwipeTableCell.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/RxBlocking.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/RxCocoa.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/RxRelay.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/RxSwift.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/RxTest.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/SDWebImage.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/SDWebImageMapKit.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/SideMenu.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/SkeletonView.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/SnapKit.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/SwiftMessages.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/SwiftyJSON.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/WatchdogInspector.framework",
 			);
-			name = "[CP] Embed Pods Frameworks";
+			name = Carthage;
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ALLoadingView.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Bolts.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/CWStatusBarNotification.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/CocoaLumberjack.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBSDKCoreKit.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBSDKLoginKit.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBSDKShareKit.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleUtilities.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Hero.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/IQKeyboardManagerSwift.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Instructions.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/JWTDecode.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MBProgressHUD.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MGSwipeTableCell.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Protobuf.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxAtomic.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxSwift.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SDWebImage.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SideMenu.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SkeletonView.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SnapKit.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftMessages.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/WatchdogInspector.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+				"$(BUILT_PRODUCTS_DIR)/$(FRAMEWORKS_FOLDER_PATH)/Alamofire.framework",
+				"$(BUILT_PRODUCTS_DIR)/$(FRAMEWORKS_FOLDER_PATH)/CocoaLumberjack.framework",
+				"$(BUILT_PRODUCTS_DIR)/$(FRAMEWORKS_FOLDER_PATH)/CocoaLumberjackSwift.framework",
+				"$(BUILT_PRODUCTS_DIR)/$(FRAMEWORKS_FOLDER_PATH)/Hero.framework",
+				"$(BUILT_PRODUCTS_DIR)/$(FRAMEWORKS_FOLDER_PATH)/IQKeyboardManager.framework",
+				"$(BUILT_PRODUCTS_DIR)/$(FRAMEWORKS_FOLDER_PATH)/IQKeyboardManagerSwift.framework",
+				"$(BUILT_PRODUCTS_DIR)/$(FRAMEWORKS_FOLDER_PATH)/Instructions.framework",
+				"$(BUILT_PRODUCTS_DIR)/$(FRAMEWORKS_FOLDER_PATH)/InstructionsAppExtensions.framework",
+				"$(BUILT_PRODUCTS_DIR)/$(FRAMEWORKS_FOLDER_PATH)/JWTDecode.framework",
+				"$(BUILT_PRODUCTS_DIR)/$(FRAMEWORKS_FOLDER_PATH)/MBProgressHUD.framework",
+				"$(BUILT_PRODUCTS_DIR)/$(FRAMEWORKS_FOLDER_PATH)/MGSwipeTableCell.framework",
+				"$(BUILT_PRODUCTS_DIR)/$(FRAMEWORKS_FOLDER_PATH)/RxBlocking.framework",
+				"$(BUILT_PRODUCTS_DIR)/$(FRAMEWORKS_FOLDER_PATH)/RxCocoa.framework",
+				"$(BUILT_PRODUCTS_DIR)/$(FRAMEWORKS_FOLDER_PATH)/RxRelay.framework",
+				"$(BUILT_PRODUCTS_DIR)/$(FRAMEWORKS_FOLDER_PATH)/RxSwift.framework",
+				"$(BUILT_PRODUCTS_DIR)/$(FRAMEWORKS_FOLDER_PATH)/RxTest.framework",
+				"$(BUILT_PRODUCTS_DIR)/$(FRAMEWORKS_FOLDER_PATH)/SDWebImage.framework",
+				"$(BUILT_PRODUCTS_DIR)/$(FRAMEWORKS_FOLDER_PATH)/SDWebImageMapKit.framework",
+				"$(BUILT_PRODUCTS_DIR)/$(FRAMEWORKS_FOLDER_PATH)/SideMenu.framework",
+				"$(BUILT_PRODUCTS_DIR)/$(FRAMEWORKS_FOLDER_PATH)/SkeletonView.framework",
+				"$(BUILT_PRODUCTS_DIR)/$(FRAMEWORKS_FOLDER_PATH)/SnapKit.framework",
+				"$(BUILT_PRODUCTS_DIR)/$(FRAMEWORKS_FOLDER_PATH)/SwiftMessages.framework",
+				"$(BUILT_PRODUCTS_DIR)/$(FRAMEWORKS_FOLDER_PATH)/SwiftyJSON.framework",
+				"$(BUILT_PRODUCTS_DIR)/$(FRAMEWORKS_FOLDER_PATH)/WatchdogInspector.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Demo/Pods-Demo-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		8D993F05C3503894AB0D77D8 /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-Demo/Pods-Demo-resources.sh",
-				"${PODS_ROOT}/Intercom/Intercom/Intercom.framework/Versions/A/Resources/Intercom.bundle",
-				"${PODS_ROOT}/Intercom/Intercom/Intercom.framework/Versions/A/Resources/IntercomTranslations.bundle",
-			);
-			name = "[CP] Copy Pods Resources";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Intercom.bundle",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/IntercomTranslations.bundle",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Demo/Pods-Demo-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		BC2AFFA8E7B6A6BFF3FE9B96 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-Demo-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
+			shellScript = "/usr/local/bin/carthage copy-frameworks\n";
 		};
 /* End PBXShellScriptBuildPhase section */
 
@@ -429,11 +458,14 @@
 		};
 		F3A22CD9227E21FE0024CD47 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = A0621B4D1524DDAE6E310691 /* Pods-Demo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 7UUW8HHBP2;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(PROJECT_DIR)/Carthage/Build/iOS/**",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = Demo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -448,11 +480,14 @@
 		};
 		F3A22CDA227E21FE0024CD47 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 6BB78ECF90B9C1137B243052 /* Pods-Demo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 7UUW8HHBP2;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(PROJECT_DIR)/Carthage/Build/iOS/**",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = Demo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
