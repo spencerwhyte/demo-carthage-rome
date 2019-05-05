@@ -19,7 +19,7 @@ platform :ios do
   desc "Description of what the lane does"
   lane :build do
     clear_derived_data(derived_data_path: "DerivedData")
-    carthage(platform: "iOS", project_directory: "Demo", use_binaries: false)
+    carthage(platform: "iOS", project_directory: "Demo", use_binaries: false, cache_builds: true)
     xcbuild(
       workspace: "Demo.xcworkspace",
       scheme: "Demo",
