@@ -47,7 +47,6 @@
 		F3A22CD5227E21FE0024CD47 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F3A22D0F227E4C600024CD47 /* MBProgressHUD.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MBProgressHUD.framework; path = Carthage/Build/iOS/MBProgressHUD.framework; sourceTree = "<group>"; };
 		F3A22D10227E4C600024CD47 /* RxCocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxCocoa.framework; path = Carthage/Build/iOS/RxCocoa.framework; sourceTree = "<group>"; };
-		F3A22D11227E4C600024CD47 /* BoltsSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = BoltsSwift.framework; path = Carthage/Build/iOS/BoltsSwift.framework; sourceTree = "<group>"; };
 		F3A22D12227E4C600024CD47 /* SDWebImageMapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SDWebImageMapKit.framework; path = Carthage/Build/iOS/SDWebImageMapKit.framework; sourceTree = "<group>"; };
 		F3A22D13227E4C600024CD47 /* SkeletonView.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SkeletonView.framework; path = Carthage/Build/iOS/SkeletonView.framework; sourceTree = "<group>"; };
 		F3A22D14227E4C600024CD47 /* WatchdogInspector.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WatchdogInspector.framework; path = Carthage/Build/iOS/WatchdogInspector.framework; sourceTree = "<group>"; };
@@ -139,7 +138,6 @@
 			isa = PBXGroup;
 			children = (
 				F3A22D1E227E4C610024CD47 /* Alamofire.framework */,
-				F3A22D11227E4C600024CD47 /* BoltsSwift.framework */,
 				F3A22D18227E4C600024CD47 /* CocoaLumberjack.framework */,
 				F3A22D21227E4C610024CD47 /* CocoaLumberjackSwift.framework */,
 				F3A22D27227E4C610024CD47 /* Hero.framework */,

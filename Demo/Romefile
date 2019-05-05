@@ -1,0 +1,10 @@
+[Cache]
+  local = ~/Library/Caches/Rome/
+  S3-Bucket = demo-carthage-rome
+
+[RepositoryMap]
+  CocoaLumberjack = CocoaLumberjackSwift, CocoaLumberjack
+  IQKeyboardManager = IQKeyboardManagerSwift
+  JWTDecode.swift = JWTDecode
+  SDWebImage = SDWebImageMapKit
+  Instructions = InstructionsAppExtensions
