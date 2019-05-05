@@ -18,7 +18,7 @@ default_platform(:ios)
 platform :ios do
   desc "Description of what the lane does"
   lane :build do
-    carthage(platform: "iOS", project_directory: "Demo")
+    carthage(platform: "iOS", project_directory: "Demo", use_binaries: true)
     xcbuild(
       workspace: "Demo.xcworkspace",
       scheme: "Demo",
