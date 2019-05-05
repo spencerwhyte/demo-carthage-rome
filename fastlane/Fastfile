@@ -18,7 +18,8 @@ default_platform(:ios)
 platform :ios do
   desc "Description of what the lane does"
   lane :build do
-    carthage(platform: "iOS", project_directory: "Demo", use_binaries: true)
+    clear_derived_data(derived_data_path: "DerivedData")
+    carthage(platform: "iOS", project_directory: "Demo", use_binaries: false)
     xcbuild(
       workspace: "Demo.xcworkspace",
       scheme: "Demo",
@@ -30,7 +31,7 @@ platform :ios do
         "CODE_SIGNING_REQUIRED" => "NO",
         "CODE_SIGN_IDENTITY" => ""
       },
-      derivedDataPath: "build"
+      derivedDataPath: "DerivedData"
     )
   end
 end
