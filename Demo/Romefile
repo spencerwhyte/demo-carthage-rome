@@ -4,7 +4,8 @@
 
 [RepositoryMap]
   CocoaLumberjack = CocoaLumberjackSwift, CocoaLumberjack
-  IQKeyboardManager = IQKeyboardManagerSwift
+  IQKeyboardManager = IQKeyboardManager, IQKeyboardManagerSwift
   JWTDecode.swift = JWTDecode
-  SDWebImage = SDWebImageMapKit
-  Instructions = InstructionsAppExtensions
+  SDWebImage = SDWebImage, SDWebImageMapKit
+  Instructions = Instructions, InstructionsAppExtensions
+  RxSwift = RxSwift, RxTest, RxRelay, RxCocoa, RxBlocking
